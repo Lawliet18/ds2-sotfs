@@ -1,153 +1,536 @@
 [
   {
+    "id": "75fad469-c2ee-47dc-8c93-3d80da81048c",
     "name": "Master of Sorcery (Learn all <a href=\"http://darksouls2.wikidot.com/sorceries\">sorceries</a>)",
     "tasks": [
-      "<a href=\"http://darksouls2.wikidot.com/soul-arrow\">Soul Arrow</a> - Sold by <a href=\"http://darksouls2.wikidot.com/merchant-hag-melentia\">Merchant Hag Melentia</a>, <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a>, and <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> for 1,500 souls",
-      "<a href=\"http://darksouls2.wikidot.com/great-soul-arrow\">Great Soul Arrow</a> - Found in <a href=\"http://darksouls2.wikidot.com/forest-of-fallen-giants\">Forest of Fallen Giants</a> and sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> and <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> for 3,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/heavy-soul-arrow\">Heavy Soul Arrow</a> - Sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> and <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> for 2,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/great-heavy-soul-arrow\">Great Heavy Soul Arrow</a> - Sold by <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> and <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> for 4,500 souls and found in <a href=\"http://darksouls2.wikidot.com/earthen-peak\">Earthen Peak</a>",
-      "<a href=\"http://darksouls2.wikidot.com/homing-soul-arrow\">Homing Soul Arrow</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> and <a href=\"http://darksouls2.wikidot.com/weaponsmith-ornifex\">Weaponsmith Ornifex</a> for 6,500 souls",
-      "<a href=\"http://darksouls2.wikidot.com/heavy-homing-soul-arrow\">Heavy Homing Soul Arrow</a> - Trade <a href=\"http://darksouls2.wikidot.com/ruin-sentinel-soul\">Ruin Sentinel Soul</a> and 1,500 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/homing-soulmass\">Homing Soulmass</a> - Found in <a href=\"http://darksouls2.wikidot.com/shaded-woods\">Shaded Woods</a> and sold by <a href=\"http://darksouls2.wikidot.com/weaponsmith-ornifex\">Weaponsmith Ornifex</a> for 6,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/homing-crystal-soulmass\">Homing Crystal Soulmass</a> - Found in <a href=\"http://darksouls2.wikidot.com/shrine-of-amana\">Shrine of Amana</a>",
-      "<a href=\"http://darksouls2.wikidot.com/soul-spear\">Soul Spear</a> - Found in <a href=\"http://darksouls2.wikidot.com/huntsman-s-copse\">Huntsman's Copse</a> and sold by <a href=\"http://darksouls2.wikidot.com/grave-warden-agdayne\">Grave Warden Agdayne</a> for 12,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/crystal-soul-spear\">Crystal Soul Spear</a> - Trade <a href=\"http://darksouls2.wikidot.com/old-paledrake-soul\">Old Paledrake Soul</a> (from <a href=\"http://darksouls2.wikidot.com/the-duke-s-dear-freja\">The Duke's Dear Freja</a> in NG+) and 10,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/shockwave\">Shockwave</a> - Sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> for 1,800 souls",
-      "<a href=\"http://darksouls2.wikidot.com/soul-spear-barrage\">Soul Spear Barrage</a> - Sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> for 2,600 souls",
-      "<a href=\"http://darksouls2.wikidot.com/soul-shower\">Soul Shower</a> - Trade <a href=\"http://darksouls2.wikidot.com/scorpioness-najka-soul\">Scorpioness Najka Soul</a> and 1,500 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/soul-greatsword\">Soul Greatsword</a> - Found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a>",
-      "<a href=\"http://darksouls2.wikidot.com/soul-vortex\">Soul Vortex</a> - Found in the pit using the 12,000 ladder and <a href=\"http://darksouls2.wikidot.com/forgotten-key\">Forgotten Key</a>, found in <a href=\"http://darksouls2.wikidot.com/brightstone-cove-tseldora\">Brightstone Cove Tseldora</a>, and sold by <a href=\"http://darksouls2.wikidot.com/grave-warden-agdayne\">Grave Warden Agdayne</a> for 10,400 souls",
-      "<a href=\"http://darksouls2.wikidot.com/soul-bolt\">Soul Bolt</a> - Found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a>",
-      "<a href=\"http://darksouls2.wikidot.com/soul-geyser\">Soul Geyser</a> - Found in <a href=\"http://darksouls2.wikidot.com/aldia-s-keep\">Aldia's Keep</a>",
-      "<a href=\"http://darksouls2.wikidot.com/magic-weapon\">Magic Weapon</a> - Sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> for 2,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/great-magic-weapon\">Great Magic Weapon</a> - Found in <a href=\"http://darksouls2.wikidot.com/black-gulch\">Black Gulch</a>, sold by <a href=\"http://darksouls2.wikidot.com/royal-sorcerer-navlaan\">Royal Sorcerer Navlaan</a> for 6,000 souls, and Rank 1 reward from the <a href=\"http://darksouls2.wikidot.com/company-of-champions\">Company of Champions</a> covenant",
-      "<a href=\"http://darksouls2.wikidot.com/crystal-magic-weapon\">Crystal Magic Weapon</a> - Found in <a href=\"http://darksouls2.wikidot.com/dragon-shrine\">Dragon Shrine</a>",
-      "<a href=\"http://darksouls2.wikidot.com/strong-magic-shield\">Strong Magic Shield</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> and <a href=\"http://darksouls2.wikidot.com/royal-sorcerer-navlaan\">Royal Sorcerer Navlaan</a> for 6,300 souls, and found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a>",
-      "<a href=\"http://darksouls2.wikidot.com/yearn\">Yearn</a> - Sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> for 3,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/hush\">Hush</a> - Found in <a href=\"http://darksouls2.wikidot.com/lost-bastille\">Lost Bastille</a> or Rank 2 reward from the <a href=\"http://darksouls2.wikidot.com/way-of-the-blue\">Way of the Blue</a> covenant",
-      "<a href=\"http://darksouls2.wikidot.com/fall-control\">Fall Control</a> - Sold by <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> and <a href=\"http://darksouls2.wikidot.com/weaponsmith-ornifex\">Weaponsmith Ornifex</a> for 4,800 souls",
-      "<a href=\"http://darksouls2.wikidot.com/hidden-weapon\">Hidden Weapon</a> - Rank 2 reward from the <a href=\"http://darksouls2.wikidot.com/bell-keepers\">Bell Keepers</a> covenant",
-      "<a href=\"http://darksouls2.wikidot.com/repair\">Repair</a> - Found in <a href=\"http://darksouls2.wikidot.com/shaded-woods\">Shaded Woods</a>",
-      "<a href=\"http://darksouls2.wikidot.com/cast-light\">Cast Light</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> and <a href=\"http://darksouls2.wikidot.com/darkdiver-grandahl\">Darkdiver Grandahl</a> for 3,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/chameleon\">Chameleon</a> - Found in <a href=\"http://darksouls2.wikidot.com/harvest-valley\">Harvest Valley</a>",
-      "<a href=\"http://darksouls2.wikidot.com/unleash-magic\">Unleash Magic</a> - Reward for finishing <a href=\"http://darksouls2.wikidot.com/royal-sorcerer-navlaan\">Royal Sorcerer Navlaan's</a> quest",
-      "<a href=\"http://darksouls2.wikidot.com/focus-souls\">Focus Souls</a> - <b>DLC</b>  Found in <a href=\"http://darksouls2.wikidot.com/shulva-sanctum-city\">Shulva, Sanctum City</a>",
-      "<a href=\"http://darksouls2.wikidot.com/soul-flash\">Soul Flash</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/frozen-eleum-loyce\">Frozen Eleum Loyce</a>"
+      {
+        "id": "bde33a60-baa0-4b3a-9918-ffdf4983e251",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soul-arrow\">Soul Arrow</a> - Sold by <a href=\"http://darksouls2.wikidot.com/merchant-hag-melentia\">Merchant Hag Melentia</a>, <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a>, and <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> for 1,500 souls"
+      },
+      {
+        "id": "160834f8-74ee-4f48-8f08-728e23d48264",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-soul-arrow\">Great Soul Arrow</a> - Found in <a href=\"http://darksouls2.wikidot.com/forest-of-fallen-giants\">Forest of Fallen Giants</a> and sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> and <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> for 3,000 souls"
+      },
+      {
+        "id": "6241daf5-35b2-4d52-b288-803518b59e45",
+        "description": "<a href=\"http://darksouls2.wikidot.com/heavy-soul-arrow\">Heavy Soul Arrow</a> - Sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> and <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> for 2,000 souls"
+      },
+      {
+        "id": "5243412c-f26f-40da-80ba-647bb5377b2b",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-heavy-soul-arrow\">Great Heavy Soul Arrow</a> - Sold by <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> and <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> for 4,500 souls and found in <a href=\"http://darksouls2.wikidot.com/earthen-peak\">Earthen Peak</a>"
+      },
+      {
+        "id": "2feaafd7-30c4-403f-82e5-37c5f941cf3f",
+        "description": "<a href=\"http://darksouls2.wikidot.com/homing-soul-arrow\">Homing Soul Arrow</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> and <a href=\"http://darksouls2.wikidot.com/weaponsmith-ornifex\">Weaponsmith Ornifex</a> for 6,500 souls"
+      },
+      {
+        "id": "43800b8c-33fc-4ee2-b3e3-962f7963aae8",
+        "description": "<a href=\"http://darksouls2.wikidot.com/heavy-homing-soul-arrow\">Heavy Homing Soul Arrow</a> - Trade <a href=\"http://darksouls2.wikidot.com/ruin-sentinel-soul\">Ruin Sentinel Soul</a> and 1,500 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "83f273d2-8b99-45e3-a88d-4b311edd5376",
+        "description": "<a href=\"http://darksouls2.wikidot.com/homing-soulmass\">Homing Soulmass</a> - Found in <a href=\"http://darksouls2.wikidot.com/shaded-woods\">Shaded Woods</a> and sold by <a href=\"http://darksouls2.wikidot.com/weaponsmith-ornifex\">Weaponsmith Ornifex</a> for 6,000 souls"
+      },
+      {
+        "id": "ba68283d-c3b8-4991-9bd6-c398eb34db4c",
+        "description": "<a href=\"http://darksouls2.wikidot.com/homing-crystal-soulmass\">Homing Crystal Soulmass</a> - Found in <a href=\"http://darksouls2.wikidot.com/shrine-of-amana\">Shrine of Amana</a>"
+      },
+      {
+        "id": "a9cfbcfe-6a26-4155-a04d-aaaa8fdadfc2",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soul-spear\">Soul Spear</a> - Found in <a href=\"http://darksouls2.wikidot.com/huntsman-s-copse\">Huntsman's Copse</a> and sold by <a href=\"http://darksouls2.wikidot.com/grave-warden-agdayne\">Grave Warden Agdayne</a> for 12,000 souls"
+      },
+      {
+        "id": "9fecffa4-37c1-4cc0-8892-842ba492c093",
+        "description": "<a href=\"http://darksouls2.wikidot.com/crystal-soul-spear\">Crystal Soul Spear</a> - Trade <a href=\"http://darksouls2.wikidot.com/old-paledrake-soul\">Old Paledrake Soul</a> (from <a href=\"http://darksouls2.wikidot.com/the-duke-s-dear-freja\">The Duke's Dear Freja</a> in NG+) and 10,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "6f4eaf9f-0291-409d-a5a4-f05466edbb08",
+        "description": "<a href=\"http://darksouls2.wikidot.com/shockwave\">Shockwave</a> - Sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> for 1,800 souls"
+      },
+      {
+        "id": "10fcc41d-081b-4973-a0f8-a8a5c0c2f98b",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soul-spear-barrage\">Soul Spear Barrage</a> - Sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> for 2,600 souls"
+      },
+      {
+        "id": "c0341355-46b3-4aa2-9e31-7233038f3b12",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soul-shower\">Soul Shower</a> - Trade <a href=\"http://darksouls2.wikidot.com/scorpioness-najka-soul\">Scorpioness Najka Soul</a> and 1,500 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "4899520c-2e52-4398-b46f-e97f30e862c7",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soul-greatsword\">Soul Greatsword</a> - Found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a>"
+      },
+      {
+        "id": "a8dcce53-afbc-46f4-9e41-f92ce7e84d1e",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soul-vortex\">Soul Vortex</a> - Found in the pit using the 12,000 ladder and <a href=\"http://darksouls2.wikidot.com/forgotten-key\">Forgotten Key</a>, found in <a href=\"http://darksouls2.wikidot.com/brightstone-cove-tseldora\">Brightstone Cove Tseldora</a>, and sold by <a href=\"http://darksouls2.wikidot.com/grave-warden-agdayne\">Grave Warden Agdayne</a> for 10,400 souls"
+      },
+      {
+        "id": "dbc47510-e96a-4aa8-9985-b4b788cc31af",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soul-bolt\">Soul Bolt</a> - Found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a>"
+      },
+      {
+        "id": "ee24b166-248d-4f15-a625-ca034c7659e5",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soul-geyser\">Soul Geyser</a> - Found in <a href=\"http://darksouls2.wikidot.com/aldia-s-keep\">Aldia's Keep</a>"
+      },
+      {
+        "id": "2655ac92-321d-4e33-a265-2942fff7fd37",
+        "description": "<a href=\"http://darksouls2.wikidot.com/magic-weapon\">Magic Weapon</a> - Sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> for 2,000 souls"
+      },
+      {
+        "id": "84220410-6fcb-4bb9-909b-0965efd75d46",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-magic-weapon\">Great Magic Weapon</a> - Found in <a href=\"http://darksouls2.wikidot.com/black-gulch\">Black Gulch</a>, sold by <a href=\"http://darksouls2.wikidot.com/royal-sorcerer-navlaan\">Royal Sorcerer Navlaan</a> for 6,000 souls, and Rank 1 reward from the <a href=\"http://darksouls2.wikidot.com/company-of-champions\">Company of Champions</a> covenant"
+      },
+      {
+        "id": "742c41e2-11e7-4a1a-8b10-9e1ebc6ff361",
+        "description": "<a href=\"http://darksouls2.wikidot.com/crystal-magic-weapon\">Crystal Magic Weapon</a> - Found in <a href=\"http://darksouls2.wikidot.com/dragon-shrine\">Dragon Shrine</a>"
+      },
+      {
+        "id": "ba992cd5-d5b7-4c93-a91e-3500e9575ae8",
+        "description": "<a href=\"http://darksouls2.wikidot.com/strong-magic-shield\">Strong Magic Shield</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> and <a href=\"http://darksouls2.wikidot.com/royal-sorcerer-navlaan\">Royal Sorcerer Navlaan</a> for 6,300 souls, and found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a>"
+      },
+      {
+        "id": "647bd7ee-c113-4ef7-a2b4-a45a991eaf14",
+        "description": "<a href=\"http://darksouls2.wikidot.com/yearn\">Yearn</a> - Sold by <a href=\"http://darksouls2.wikidot.com/carhillion-of-the-fold\">Carhillion of the Fold</a> for 3,000 souls"
+      },
+      {
+        "id": "668b3b3e-65a4-4306-84a7-f25295664678",
+        "description": "<a href=\"http://darksouls2.wikidot.com/hush\">Hush</a> - Found in <a href=\"http://darksouls2.wikidot.com/lost-bastille\">Lost Bastille</a> or Rank 2 reward from the <a href=\"http://darksouls2.wikidot.com/way-of-the-blue\">Way of the Blue</a> covenant"
+      },
+      {
+        "id": "67ad0337-2c63-4aea-a791-e999ec461a79",
+        "description": "<a href=\"http://darksouls2.wikidot.com/fall-control\">Fall Control</a> - Sold by <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> and <a href=\"http://darksouls2.wikidot.com/weaponsmith-ornifex\">Weaponsmith Ornifex</a> for 4,800 souls"
+      },
+      {
+        "id": "063d1b81-4354-4af6-b9b5-de4a25fd416a",
+        "description": "<a href=\"http://darksouls2.wikidot.com/hidden-weapon\">Hidden Weapon</a> - Rank 2 reward from the <a href=\"http://darksouls2.wikidot.com/bell-keepers\">Bell Keepers</a> covenant"
+      },
+      {
+        "id": "fefad706-d11d-44f7-aa71-64ce4e438a8e",
+        "description": "<a href=\"http://darksouls2.wikidot.com/repair\">Repair</a> - Found in <a href=\"http://darksouls2.wikidot.com/shaded-woods\">Shaded Woods</a>"
+      },
+      {
+        "id": "a9e6897d-a082-4351-a408-aeae7ea67f02",
+        "description": "<a href=\"http://darksouls2.wikidot.com/cast-light\">Cast Light</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> and <a href=\"http://darksouls2.wikidot.com/darkdiver-grandahl\">Darkdiver Grandahl</a> for 3,000 souls"
+      },
+      {
+        "id": "8275dd87-a308-483f-a6fb-3bf3f1f236d0",
+        "description": "<a href=\"http://darksouls2.wikidot.com/chameleon\">Chameleon</a> - Found in <a href=\"http://darksouls2.wikidot.com/harvest-valley\">Harvest Valley</a>"
+      },
+      {
+        "id": "d64ee748-5af2-43c0-96a4-209c9d31b6cc",
+        "description": "<a href=\"http://darksouls2.wikidot.com/unleash-magic\">Unleash Magic</a> - Reward for finishing <a href=\"http://darksouls2.wikidot.com/royal-sorcerer-navlaan\">Royal Sorcerer Navlaan's</a> quest"
+      },
+      {
+        "id": "361a64d3-e69e-497d-9022-81274228ffe0",
+        "description": "<a href=\"http://darksouls2.wikidot.com/focus-souls\">Focus Souls</a> - <b>DLC</b>  Found in <a href=\"http://darksouls2.wikidot.com/shulva-sanctum-city\">Shulva, Sanctum City</a>"
+      },
+      {
+        "id": "7f3b77c2-6c63-4952-a50d-0ab5938c8b8d",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soul-flash\">Soul Flash</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/frozen-eleum-loyce\">Frozen Eleum Loyce</a>"
+      }
     ]
   },
   {
+    "id": "8c84d440-a991-4d6d-acca-4d7702495992",
     "name": "Master of Miracles (Learn all <a href=\"http://darksouls2.wikidot.com/miracles\">miracles</a>)",
     "tasks": [
-      "<a href=\"http://darksouls2.wikidot.com/heal\">Heal</a> - Sold by <a href=\"http://darksouls2.wikidot.com/merchant-hag-melentia\">Merchant Hag Melentia</a> and <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> for 1,500 souls",
-      "<a href=\"http://darksouls2.wikidot.com/med-heal\">Med Heal</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> for 3,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/great-heal-excerpt\">Great Heal Excerpt</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> for 4,500 souls",
-      "<a href=\"http://darksouls2.wikidot.com/great-heal\">Great Heal</a> - Found in <a href=\"http://darksouls2.wikidot.com/grave-of-saints\">Grave of Saints</a> and sold by <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 8,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/soothing-sunlight\">Soothing Sunlight</a> - Dropped by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> when you invade and kill her",
-      "<a href=\"http://darksouls2.wikidot.com/replenishment\">Replenishment</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> and <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 3,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/resplendent-life\">Resplendent Life</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> and <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 4,500 souls, and found in <a href=\"http://darksouls2.wikidot.com/lost-bastille\">Lost Bastille</a> (NG+ or higher)",
-      "<a href=\"http://darksouls2.wikidot.com/bountiful-sunlight\">Bountiful Sunlight</a> - Sold by <a href=\"http://darksouls2.wikidot.com/chancellor-wellager\">Chancellor Wellager</a> for 11,000 souls in NG++ and Rank 3 reward from the <a href=\"http://darksouls2.wikidot.com/blue-sentinels\">Blue Sentinels</a> covenant",
-      "<a href=\"http://darksouls2.wikidot.com/caressing-prayer\">Caressing Prayer</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> and <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 2,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/force\">Force</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> and <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 1,800 souls",
-      "<a href=\"http://darksouls2.wikidot.com/wrath-of-the-gods\">Wrath of the Gods</a> - Sold by <a href=\"http://darksouls2.wikidot.com/chancellor-wellager\">Chancellor Wellager</a> for 8,200 souls in NG++ and Rank 2 reward from the <a href=\"http://darksouls2.wikidot.com/blue-sentinels\">Blue Sentinels</a> covenant",
-      "<a href=\"http://darksouls2.wikidot.com/emit-force\">Emit Force</a> - Sold by <a href=\"http://darksouls2.wikidot.com/blue-sentinel-targray\">Blue Sentinel Targray</a> and <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 4,200 souls, and found in <a href=\"http://darksouls2.wikidot.com/no-man-s-wharf\">No-Man's Wharf</a>",
-      "<a href=\"http://darksouls2.wikidot.com/heavenly-thunder\">Heavenly Thunder</a> - Sold by <a href=\"http://darksouls2.wikidot.com/blue-sentinel-targray\">Blue Sentinel Targray</a> and <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 3,300 souls",
-      "<a href=\"http://darksouls2.wikidot.com/lightning-spear\">Lightning Spear</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> and found in <a href=\"http://darksouls2.wikidot.com/earthen-peak\">Earthen Peak</a>",
-      "<a href=\"http://darksouls2.wikidot.com/great-lightning-spear\">Great Lightning Spear</a> - Found in the pit using the 12,000 ladder and <a href=\"http://darksouls2.wikidot.com/forgotten-key\">Forgotten Key</a>, sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 13,000 souls, and found in <a href=\"http://darksouls2.wikidot.com/undead-crypt\">Undead Crypt</a>",
-      "<a href=\"http://darksouls2.wikidot.com/sunlight-spear\">Sunlight Spear</a> - Reward from Rank 3 in the <a href=\"http://darksouls2.wikidot.com/heirs-of-the-sun\">Heirs of the Sun</a> covenant",
-      "<a href=\"http://darksouls2.wikidot.com/soul-appease\">Soul Appease</a> - Sold by <a href=\"http://darksouls2.wikidot.com/stone-trader-chloanne\">Stone Trader Chloanne</a> and <a href=\"http://darksouls2.wikidot.com/grave-warden-agdayne\">Grave Warden Agdayne</a> for 8,800 souls",
-      "<a href=\"http://darksouls2.wikidot.com/blinding-bolt\">Blinding Bolt</a> - Trade <a href=\"http://darksouls2.wikidot.com/old-king-soul\">Old King Soul</a> (from <a href=\"http://darksouls2.wikidot.com/old-iron-king\">Old Iron King</a> in NG+) and 10,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/magic-barrier\">Magic Barrier</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> and <a href=\"http://darksouls2.wikidot.com/head-of-vengarl\">Head of Vengarl</a> for 2,700 souls",
-      "<a href=\"http://darksouls2.wikidot.com/great-magic-barrier\">Great Magic Barrier</a> - Sold by <a href=\"http://darksouls2.wikidot.com/chancellor-wellager\">Chancellor Wellager</a> for 9,300 souls, found in <a href=\"http://darksouls2.wikidot.com/aldia-s-keep\">Aldia's Keep</a>, and found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a> (NG+ or higher)",
-      "<a href=\"http://darksouls2.wikidot.com/homeward\">Homeward</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> for 2,400 souls",
-      "<a href=\"http://darksouls2.wikidot.com/guidance\">Guidance</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> for 3,700 souls",
-      "<a href=\"http://darksouls2.wikidot.com/sacred-oath\">Sacred Oath</a> - Trade <a href=\"http://darksouls2.wikidot.com/soul-of-velstadt\">Soul of Velstadt</a> and 3,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/unveil\">Unveil</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 2,200 souls",
-      "<a href=\"http://darksouls2.wikidot.com/perseverance\">Perseverance</a> - Sold by <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 3,500 souls",
-      "<a href=\"http://darksouls2.wikidot.com/sunlight-blade\">Sunlight Blade</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 12,400 and found in <a href=\"http://darksouls2.wikidot.com/shrine-of-amana\">Shrine of Amana</a>",
-      "<a href=\"http://darksouls2.wikidot.com/denial\">Denial</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/dragon-s-sanctum\">Dragon's Sanctum</a>",
-      "<a href=\"http://darksouls2.wikidot.com/splintering-lightning-spear\">Splintering Lightning Spear</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/frozen-eleum-loyce\">Frozen Eleum Loyce</a>"
+      {
+        "id": "91b198c8-c524-4cb2-a27f-6b0d16e6f02c",
+        "description": "<a href=\"http://darksouls2.wikidot.com/heal\">Heal</a> - Sold by <a href=\"http://darksouls2.wikidot.com/merchant-hag-melentia\">Merchant Hag Melentia</a> and <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> for 1,500 souls"
+      },
+      {
+        "id": "295c6170-e687-4bb3-9cb1-6983d420b772",
+        "description": "<a href=\"http://darksouls2.wikidot.com/med-heal\">Med Heal</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> for 3,000 souls"
+      },
+      {
+        "id": "212ab798-ac85-4051-958e-1ef12a26b73f",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-heal-excerpt\">Great Heal Excerpt</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> for 4,500 souls"
+      },
+      {
+        "id": "367f3ac5-3b9d-443e-a6af-83b43ab70eef",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-heal\">Great Heal</a> - Found in <a href=\"http://darksouls2.wikidot.com/grave-of-saints\">Grave of Saints</a> and sold by <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 8,000 souls"
+      },
+      {
+        "id": "3f6e6e4a-b4e2-4345-9d9f-2be738fcc9c6",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soothing-sunlight\">Soothing Sunlight</a> - Dropped by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> when you invade and kill her"
+      },
+      {
+        "id": "07d15f86-b380-4bbd-9cd9-ce6b139af66d",
+        "description": "<a href=\"http://darksouls2.wikidot.com/replenishment\">Replenishment</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> and <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 3,000 souls"
+      },
+      {
+        "id": "f5769405-f29f-4dd6-8d8b-6e0364931d65",
+        "description": "<a href=\"http://darksouls2.wikidot.com/resplendent-life\">Resplendent Life</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> and <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 4,500 souls, and found in <a href=\"http://darksouls2.wikidot.com/lost-bastille\">Lost Bastille</a> (NG+ or higher)"
+      },
+      {
+        "id": "35f71215-daad-4b68-b123-38facd571e6c",
+        "description": "<a href=\"http://darksouls2.wikidot.com/bountiful-sunlight\">Bountiful Sunlight</a> - Sold by <a href=\"http://darksouls2.wikidot.com/chancellor-wellager\">Chancellor Wellager</a> for 11,000 souls in NG++ and Rank 3 reward from the <a href=\"http://darksouls2.wikidot.com/blue-sentinels\">Blue Sentinels</a> covenant"
+      },
+      {
+        "id": "e1ec69f9-71f8-40a1-a4f1-7e45c24d3f7b",
+        "description": "<a href=\"http://darksouls2.wikidot.com/caressing-prayer\">Caressing Prayer</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> and <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 2,000 souls"
+      },
+      {
+        "id": "f590c9b9-0430-4f4b-bcc2-019b0d019ea2",
+        "description": "<a href=\"http://darksouls2.wikidot.com/force\">Force</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> and <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 1,800 souls"
+      },
+      {
+        "id": "01dccb3a-c4bb-4d23-9ea5-a47c63a9b5b9",
+        "description": "<a href=\"http://darksouls2.wikidot.com/wrath-of-the-gods\">Wrath of the Gods</a> - Sold by <a href=\"http://darksouls2.wikidot.com/chancellor-wellager\">Chancellor Wellager</a> for 8,200 souls in NG++ and Rank 2 reward from the <a href=\"http://darksouls2.wikidot.com/blue-sentinels\">Blue Sentinels</a> covenant"
+      },
+      {
+        "id": "4b0986de-f90e-4aa0-98a2-4a359af663d0",
+        "description": "<a href=\"http://darksouls2.wikidot.com/emit-force\">Emit Force</a> - Sold by <a href=\"http://darksouls2.wikidot.com/blue-sentinel-targray\">Blue Sentinel Targray</a> and <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 4,200 souls, and found in <a href=\"http://darksouls2.wikidot.com/no-man-s-wharf\">No-Man's Wharf</a>"
+      },
+      {
+        "id": "cf4c39c7-9e70-4583-87a7-5760b44f18d5",
+        "description": "<a href=\"http://darksouls2.wikidot.com/heavenly-thunder\">Heavenly Thunder</a> - Sold by <a href=\"http://darksouls2.wikidot.com/blue-sentinel-targray\">Blue Sentinel Targray</a> and <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 3,300 souls"
+      },
+      {
+        "id": "ab96fc75-276a-4656-b710-37c0ec1da5bb",
+        "description": "<a href=\"http://darksouls2.wikidot.com/lightning-spear\">Lightning Spear</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> and found in <a href=\"http://darksouls2.wikidot.com/earthen-peak\">Earthen Peak</a>"
+      },
+      {
+        "id": "c92548e0-6724-4ce7-968d-53815c4947df",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-lightning-spear\">Great Lightning Spear</a> - Found in the pit using the 12,000 ladder and <a href=\"http://darksouls2.wikidot.com/forgotten-key\">Forgotten Key</a>, sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 13,000 souls, and found in <a href=\"http://darksouls2.wikidot.com/undead-crypt\">Undead Crypt</a>"
+      },
+      {
+        "id": "462bfc63-eae2-41d7-991d-0acd2d02fba9",
+        "description": "<a href=\"http://darksouls2.wikidot.com/sunlight-spear\">Sunlight Spear</a> - Reward from Rank 3 in the <a href=\"http://darksouls2.wikidot.com/heirs-of-the-sun\">Heirs of the Sun</a> covenant"
+      },
+      {
+        "id": "ab5867a2-1ace-4a90-8003-2f31a986a409",
+        "description": "<a href=\"http://darksouls2.wikidot.com/soul-appease\">Soul Appease</a> - Sold by <a href=\"http://darksouls2.wikidot.com/stone-trader-chloanne\">Stone Trader Chloanne</a> and <a href=\"http://darksouls2.wikidot.com/grave-warden-agdayne\">Grave Warden Agdayne</a> for 8,800 souls"
+      },
+      {
+        "id": "cf4c46ef-4b7e-4865-9843-5076db2ed438",
+        "description": "<a href=\"http://darksouls2.wikidot.com/blinding-bolt\">Blinding Bolt</a> - Trade <a href=\"http://darksouls2.wikidot.com/old-king-soul\">Old King Soul</a> (from <a href=\"http://darksouls2.wikidot.com/old-iron-king\">Old Iron King</a> in NG+) and 10,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "2ef0b52e-5eef-4760-8323-e04739c24fa0",
+        "description": "<a href=\"http://darksouls2.wikidot.com/magic-barrier\">Magic Barrier</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> and <a href=\"http://darksouls2.wikidot.com/head-of-vengarl\">Head of Vengarl</a> for 2,700 souls"
+      },
+      {
+        "id": "7c89b48c-62bb-442a-bd26-c0d70e1246fe",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-magic-barrier\">Great Magic Barrier</a> - Sold by <a href=\"http://darksouls2.wikidot.com/chancellor-wellager\">Chancellor Wellager</a> for 9,300 souls, found in <a href=\"http://darksouls2.wikidot.com/aldia-s-keep\">Aldia's Keep</a>, and found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a> (NG+ or higher)"
+      },
+      {
+        "id": "929e623f-3115-4070-a366-a02bd2961817",
+        "description": "<a href=\"http://darksouls2.wikidot.com/homeward\">Homeward</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> for 2,400 souls"
+      },
+      {
+        "id": "471dcec7-d227-4394-ab42-ddf6091cbaff",
+        "description": "<a href=\"http://darksouls2.wikidot.com/guidance\">Guidance</a> - Sold by <a href=\"http://darksouls2.wikidot.com/licia-of-lindeldt\">Licia of Lindeldt</a> for 3,700 souls"
+      },
+      {
+        "id": "a8d94c03-c0b9-4a0b-a288-cdc65a104c7d",
+        "description": "<a href=\"http://darksouls2.wikidot.com/sacred-oath\">Sacred Oath</a> - Trade <a href=\"http://darksouls2.wikidot.com/soul-of-velstadt\">Soul of Velstadt</a> and 3,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "7a51511c-ae69-483a-be6a-f99ed25b93da",
+        "description": "<a href=\"http://darksouls2.wikidot.com/unveil\">Unveil</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 2,200 souls"
+      },
+      {
+        "id": "416704c3-5547-47e7-aae4-150e97580aaa",
+        "description": "<a href=\"http://darksouls2.wikidot.com/perseverance\">Perseverance</a> - Sold by <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 3,500 souls"
+      },
+      {
+        "id": "19b15476-42f9-433f-8255-addb6740cb43",
+        "description": "<a href=\"http://darksouls2.wikidot.com/sunlight-blade\">Sunlight Blade</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 12,400 and found in <a href=\"http://darksouls2.wikidot.com/shrine-of-amana\">Shrine of Amana</a>"
+      },
+      {
+        "id": "899d668b-66da-47b6-8950-b20fd7e7ea63",
+        "description": "<a href=\"http://darksouls2.wikidot.com/denial\">Denial</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/dragon-s-sanctum\">Dragon's Sanctum</a>"
+      },
+      {
+        "id": "8f7635af-2b85-4603-bbaf-b7a409fab53c",
+        "description": "<a href=\"http://darksouls2.wikidot.com/splintering-lightning-spear\">Splintering Lightning Spear</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/frozen-eleum-loyce\">Frozen Eleum Loyce</a>"
+      }
     ]
   },
   {
+    "id": "b226efc4-7515-4bfd-9100-abb41dd28556",
     "name": "Master of Pyromancy (Learn all <a href=\"http://darksouls2.wikidot.com/pyromancies\">pyromancies</a>)",
     "tasks": [
-      "<a href=\"http://darksouls2.wikidot.com/fireball\">Fireball</a> - Found in <a href=\"http://darksouls2.wikidot.com/no-man-s-wharf\">No-Man's Wharf</a>, sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 1,200 souls, and dropped by <a href=\"http://darksouls2.wikidot.com/flame-salamander\">Flame Salamanders</a>",
-      "<a href=\"http://darksouls2.wikidot.com/fire-orb\">Fire Orb</a> - Sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 3,400 souls and dropped by <a href=\"http://darksouls2.wikidot.com/flame-salamander\">Flame Salamanders</a>",
-      "<a href=\"http://darksouls2.wikidot.com/great-fireball\">Great Fireball</a> - Found in <a href=\"http://darksouls2.wikidot.com/brightstone-cove-tseldora\">Brightstone Cove Tseldora</a> and dropped by <a href=\"http://darksouls2.wikidot.com/flame-salamander\">Flame Salamanders</a>",
-      "<a href=\"http://darksouls2.wikidot.com/great-chaos-fireball\">Great Chaos Fireball</a> - Sold by <a href=\"http://darksouls2.wikidot.com/chancellor-wellager\">Chancellor Wellager</a> for 17,400 souls in NG++ and Rank 3 reward from the <a href=\"http://darksouls2.wikidot.com/brotherhood-of-blood\">Brotherhood of Blood</a> covenant",
-      "<a href=\"http://darksouls2.wikidot.com/firestorm\">Firestorm</a> - Sold by <a href=\"http://darksouls2.wikidot.com/titchy-gren\">Titchy Gren</a> for 4,500 souls and found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a>",
-      "<a href=\"http://darksouls2.wikidot.com/fire-tempest\">Fire Tempest</a> - Found in <a href=\"http://darksouls2.wikidot.com/shrine-of-amana\">Shrine of Amana</a>",
-      "<a href=\"http://darksouls2.wikidot.com/chaos-storm\">Chaos Storm</a> - Found in <a href=\"http://darksouls2.wikidot.com/iron-keep\">Iron Keep</a>",
-      "<a href=\"http://darksouls2.wikidot.com/combustion\">Combustion</a> - Found in <a href=\"http://darksouls2.wikidot.com/huntsman-s-copse\">Huntsman's Copse</a> and sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 1,500 souls",
-      "<a href=\"http://darksouls2.wikidot.com/great-combustion\">Great Combustion</a> - Sold by <a href=\"http://darksouls2.wikidot.com/titchy-gren\">Titchy Gren</a> for 4,800 souls and found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a>",
-      "<a href=\"http://darksouls2.wikidot.com/fire-whip\">Fire Whip</a> - Sold by <a href=\"http://darksouls2.wikidot.com/titchy-gren\">Titchy Gren</a> for 3,400 and dropped by <a href=\"http://darksouls2.wikidot.com/belfry-guardian\">Bell Keepers</a> in <a href=\"http://darksouls2.wikidot.com/belfry-sol\">Belfry Sol</a>",
-      "<a href=\"http://darksouls2.wikidot.com/poison-mist\">Poison Mist</a> - Sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 3,400 souls",
-      "<a href=\"http://darksouls2.wikidot.com/toxic-mist\">Toxic Mist</a> - Trade <a href=\"http://darksouls2.wikidot.com/royal-rat-vanguard-soul\">Royal Rat Vanguard Soul</a> and 1,500 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/acid-surge\">Acid Surge</a> - Trade <a href=\"http://darksouls2.wikidot.com/royal-rat-authority-soul\">Royal Rat Authority Soul</a> and 1,500 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/lingering-flame\">Lingering Flame</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 6,700 souls",
-      "<a href=\"http://darksouls2.wikidot.com/flame-swathe\">Flame Swathe</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 9,500 souls and dropped by <a href=\"http://darksouls2.wikidot.com/belfry-guardian\">Bell Keepers</a> in <a href=\"http://darksouls2.wikidot.com/belfry-sol\">Belfry Sol</a>",
-      "<a href=\"http://darksouls2.wikidot.com/forbidden-sun\">Forbidden Sun</a> - Reward from completing the <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> part of <a href=\"http://darksouls2.wikidot.com/royal-sorcerer-navlaan\">Royal Sorcerer Navlaan's</a> quest",
-      "<a href=\"http://darksouls2.wikidot.com/flame-weapon\">Flame Weapon</a> - Trade <a href=\"http://darksouls2.wikidot.com/old-witch-soul\">Old Witch Soul</a> (from <a href=\"http://darksouls2.wikidot.com/the-lost-sinner\">The Lost Sinner</a> in NG+) and 10,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/flash-sweat\">Flash Sweat</a> - Sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 3,500 souls",
-      "<a href=\"http://darksouls2.wikidot.com/iron-flesh\">Iron Flesh</a> - Sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 3,500 souls",
-      "<a href=\"http://darksouls2.wikidot.com/warmth\">Warmth</a> - Sold by <a href=\"http://darksouls2.wikidot.com/grave-warden-agdayne\">Grave Warden Agdayne</a> for 5,200 souls and dropped by <a href=\"http://darksouls2.wikidot.com/corpse-rat\">Corpse Rats</a>",
-      "<a href=\"http://darksouls2.wikidot.com/immolation\">Immolation</a> - Found in <a href=\"http://darksouls2.wikidot.com/belfry-sol\">Belfry Sol</a>",
-      "<a href=\"http://darksouls2.wikidot.com/outcry\">Outcry</a> - <b>DLC</b> Trade <a href=\"http://darksouls2.wikidot.com/soul-of-nadalia-bride-of-ash\">Soul of Nadalia, Bride of Ash</a> and 45,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/dance-of-fire\">Dance of Fire</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/brume-tower\">Brume Tower</a>",
-      "<a href=\"http://darksouls2.wikidot.com/fire-snake\">Fire Snake</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/brume-tower\">Brume Tower</a>"
+      {
+        "id": "500db42f-d8f9-4b39-90cc-e25a778cba25",
+        "description": "<a href=\"http://darksouls2.wikidot.com/fireball\">Fireball</a> - Found in <a href=\"http://darksouls2.wikidot.com/no-man-s-wharf\">No-Man's Wharf</a>, sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 1,200 souls, and dropped by <a href=\"http://darksouls2.wikidot.com/flame-salamander\">Flame Salamanders</a>"
+      },
+      {
+        "id": "4e4cc77c-7ab0-48a6-a6eb-1ae3facd6530",
+        "description": "<a href=\"http://darksouls2.wikidot.com/fire-orb\">Fire Orb</a> - Sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 3,400 souls and dropped by <a href=\"http://darksouls2.wikidot.com/flame-salamander\">Flame Salamanders</a>"
+      },
+      {
+        "id": "135c8532-c589-4a21-80cb-b12089fcf458",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-fireball\">Great Fireball</a> - Found in <a href=\"http://darksouls2.wikidot.com/brightstone-cove-tseldora\">Brightstone Cove Tseldora</a> and dropped by <a href=\"http://darksouls2.wikidot.com/flame-salamander\">Flame Salamanders</a>"
+      },
+      {
+        "id": "0ddd3c5c-20c5-4a98-a74b-88041708e38e",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-chaos-fireball\">Great Chaos Fireball</a> - Sold by <a href=\"http://darksouls2.wikidot.com/chancellor-wellager\">Chancellor Wellager</a> for 17,400 souls in NG++ and Rank 3 reward from the <a href=\"http://darksouls2.wikidot.com/brotherhood-of-blood\">Brotherhood of Blood</a> covenant"
+      },
+      {
+        "id": "a77d9917-cd76-4469-8f6b-3e832f83a65b",
+        "description": "<a href=\"http://darksouls2.wikidot.com/firestorm\">Firestorm</a> - Sold by <a href=\"http://darksouls2.wikidot.com/titchy-gren\">Titchy Gren</a> for 4,500 souls and found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a>"
+      },
+      {
+        "id": "0ba435a7-ed76-473b-8355-c7df34a655b1",
+        "description": "<a href=\"http://darksouls2.wikidot.com/fire-tempest\">Fire Tempest</a> - Found in <a href=\"http://darksouls2.wikidot.com/shrine-of-amana\">Shrine of Amana</a>"
+      },
+      {
+        "id": "70242228-665e-4d7e-89ee-bdef4bef0f8b",
+        "description": "<a href=\"http://darksouls2.wikidot.com/chaos-storm\">Chaos Storm</a> - Found in <a href=\"http://darksouls2.wikidot.com/iron-keep\">Iron Keep</a>"
+      },
+      {
+        "id": "96af4e5f-0aab-4e92-aa14-fd20644b6e5d",
+        "description": "<a href=\"http://darksouls2.wikidot.com/combustion\">Combustion</a> - Found in <a href=\"http://darksouls2.wikidot.com/huntsman-s-copse\">Huntsman's Copse</a> and sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 1,500 souls"
+      },
+      {
+        "id": "be47210c-f8a3-4ca6-b28b-1e4f7c221c2d",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-combustion\">Great Combustion</a> - Sold by <a href=\"http://darksouls2.wikidot.com/titchy-gren\">Titchy Gren</a> for 4,800 souls and found in <a href=\"http://darksouls2.wikidot.com/drangleic-castle\">Drangleic Castle</a>"
+      },
+      {
+        "id": "36174690-db7e-4d95-b163-48a0fea21be3",
+        "description": "<a href=\"http://darksouls2.wikidot.com/fire-whip\">Fire Whip</a> - Sold by <a href=\"http://darksouls2.wikidot.com/titchy-gren\">Titchy Gren</a> for 3,400 and dropped by <a href=\"http://darksouls2.wikidot.com/belfry-guardian\">Bell Keepers</a> in <a href=\"http://darksouls2.wikidot.com/belfry-sol\">Belfry Sol</a>"
+      },
+      {
+        "id": "f9cc8754-5908-41f5-ba01-beb251a5c97b",
+        "description": "<a href=\"http://darksouls2.wikidot.com/poison-mist\">Poison Mist</a> - Sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 3,400 souls"
+      },
+      {
+        "id": "fb4c8c50-fe71-433b-9f07-7c370fe36580",
+        "description": "<a href=\"http://darksouls2.wikidot.com/toxic-mist\">Toxic Mist</a> - Trade <a href=\"http://darksouls2.wikidot.com/royal-rat-vanguard-soul\">Royal Rat Vanguard Soul</a> and 1,500 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "e1c1c288-54ad-43c8-aeab-d259d552e37d",
+        "description": "<a href=\"http://darksouls2.wikidot.com/acid-surge\">Acid Surge</a> - Trade <a href=\"http://darksouls2.wikidot.com/royal-rat-authority-soul\">Royal Rat Authority Soul</a> and 1,500 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "cfd79a96-2255-4696-8620-099898122c04",
+        "description": "<a href=\"http://darksouls2.wikidot.com/lingering-flame\">Lingering Flame</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 6,700 souls"
+      },
+      {
+        "id": "063c6e10-e275-46c4-aae2-1e355412e66e",
+        "description": "<a href=\"http://darksouls2.wikidot.com/flame-swathe\">Flame Swathe</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 9,500 souls and dropped by <a href=\"http://darksouls2.wikidot.com/belfry-guardian\">Bell Keepers</a> in <a href=\"http://darksouls2.wikidot.com/belfry-sol\">Belfry Sol</a>"
+      },
+      {
+        "id": "d243792a-7d5c-43c1-96fb-4c07d27e787c",
+        "description": "<a href=\"http://darksouls2.wikidot.com/forbidden-sun\">Forbidden Sun</a> - Reward from completing the <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> part of <a href=\"http://darksouls2.wikidot.com/royal-sorcerer-navlaan\">Royal Sorcerer Navlaan's</a> quest"
+      },
+      {
+        "id": "aa6044ae-da2c-454c-9f56-fedb36633686",
+        "description": "<a href=\"http://darksouls2.wikidot.com/flame-weapon\">Flame Weapon</a> - Trade <a href=\"http://darksouls2.wikidot.com/old-witch-soul\">Old Witch Soul</a> (from <a href=\"http://darksouls2.wikidot.com/the-lost-sinner\">The Lost Sinner</a> in NG+) and 10,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "e7532219-015a-4d78-afba-d86c93dd7a5c",
+        "description": "<a href=\"http://darksouls2.wikidot.com/flash-sweat\">Flash Sweat</a> - Sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 3,500 souls"
+      },
+      {
+        "id": "f7f7fa17-ee6d-4918-87b3-1682576c393e",
+        "description": "<a href=\"http://darksouls2.wikidot.com/iron-flesh\">Iron Flesh</a> - Sold by <a href=\"http://darksouls2.wikidot.com/rosabeth-of-melfia\">Rosabeth of Melfia</a> for 3,500 souls"
+      },
+      {
+        "id": "bd6f07c4-7e0d-4f51-a7d9-69d0bbdb4e35",
+        "description": "<a href=\"http://darksouls2.wikidot.com/warmth\">Warmth</a> - Sold by <a href=\"http://darksouls2.wikidot.com/grave-warden-agdayne\">Grave Warden Agdayne</a> for 5,200 souls and dropped by <a href=\"http://darksouls2.wikidot.com/corpse-rat\">Corpse Rats</a>"
+      },
+      {
+        "id": "551655a1-f6b0-4898-9f3d-1bd46938367f",
+        "description": "<a href=\"http://darksouls2.wikidot.com/immolation\">Immolation</a> - Found in <a href=\"http://darksouls2.wikidot.com/belfry-sol\">Belfry Sol</a>"
+      },
+      {
+        "id": "16d641ed-6185-4856-89a3-ab425c5f44e4",
+        "description": "<a href=\"http://darksouls2.wikidot.com/outcry\">Outcry</a> - <b>DLC</b> Trade <a href=\"http://darksouls2.wikidot.com/soul-of-nadalia-bride-of-ash\">Soul of Nadalia, Bride of Ash</a> and 45,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "2b8d71f3-460b-4703-83ef-e9fa47b89dcb",
+        "description": "<a href=\"http://darksouls2.wikidot.com/dance-of-fire\">Dance of Fire</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/brume-tower\">Brume Tower</a>"
+      },
+      {
+        "id": "519c89ac-0ec4-4303-8400-ee9090846257",
+        "description": "<a href=\"http://darksouls2.wikidot.com/fire-snake\">Fire Snake</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/brume-tower\">Brume Tower</a>"
+      }
     ]
   },
   {
+    "id": "7f67cdc0-760d-445f-936c-6afdc27e35c4",
     "name": "Master of Hexes (Learn all <a href=\"http://darksouls2.wikidot.com/hexes\">hexes</a>)",
     "tasks": [
-      "<a href=\"http://darksouls2.wikidot.com/dark-orb\">Dark Orb</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a>, <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>, and <a href=\"http://darksouls2.wikidot.com/darkdiver-grandahl\">Darkdiver Grandahl</a> for 600 souls",
-      "<a href=\"http://darksouls2.wikidot.com/dark-hail\">Dark Hail</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>, <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a>, and <a href=\"http://darksouls2.wikidot.com/darkdiver-grandahl\">Darkdiver Grandahl</a> for 1,500 souls",
-      "<a href=\"http://darksouls2.wikidot.com/dark-fog\">Dark Fog</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 5,200 souls and found in <a href=\"http://darksouls2.wikidot.com/the-gutter\">The Gutter</a>",
-      "<a href=\"http://darksouls2.wikidot.com/affinity\">Affinity</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 11,500 souls and dropped by <a href=\"http://darksouls2.wikidot.com/rabid-kobold\">Rabid Kobolds</a> in <a href=\"http://darksouls2.wikidot.com/aldia-s-keep\">Aldia's Keep</a>",
-      "<a href=\"http://darksouls2.wikidot.com/dead-again\">Dead Again</a> - Sold by <a href=\"http://darksouls2.wikidot.com/stone-trader-chloanne\">Stone Trader Chloanne</a> for 4,000 souls and dropped by <a href=\"http://darksouls2.wikidot.com/razorback-nightcrawler\">Razorback Nightcrawlers</a>",
-      "<a href=\"http://darksouls2.wikidot.com/dark-weapon\">Dark Weapon</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> for 2,700 souls",
-      "<a href=\"http://darksouls2.wikidot.com/whisper-of-despair\">Whisper of Despair</a> - Found in <a href=\"http://darksouls2.wikidot.com/grave-of-saints\">Grave of Saints</a>",
-      "<a href=\"http://darksouls2.wikidot.com/repel\">Repel</a> - Trade <a href=\"http://darksouls2.wikidot.com/giant-lord-soul\">Giant Lord Soul</a> and 5,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/twisted-barricade\">Twisted Barricade</a> - Found in <a href=\"http://darksouls2.wikidot.com/doors-of-pharros\">Doors of Pharros</a>",
-      "<a href=\"http://darksouls2.wikidot.com/numbness\">Numbness</a> - Trade <a href=\"http://darksouls2.wikidot.com/old-dead-one-soul\">Old Dead One Soul</a> (from <a href=\"http://darksouls2.wikidot.com/the-rotten\">The Rotten</a> in NG+) and 5,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/scraps-of-life\">Scraps of Life</a> - Found in <a href=\"http://darksouls2.wikidot.com/black-gulch\">Black Gulch</a> and sold by <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 2,200 souls",
-      "<a href=\"http://darksouls2.wikidot.com/darkstorm\">Darkstorm</a> - Sold <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> and <a href=\"http://darksouls2.wikidot.com/darkdiver-grandahl\">Darkdiver Grandahl</a> for 4,700 souls",
-      "<a href=\"http://darksouls2.wikidot.com/resonant-soul\">Resonant Soul</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> for 1,100 souls and reward from Rank 1 in the <a href=\"http://darksouls2.wikidot.com/pilgrims-of-dark\">Pilgrims of Dark</a> covenant",
-      "<a href=\"http://darksouls2.wikidot.com/great-resonant-soul\">Great Resonant Soul</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> for 3,400 souls and reward from Rank 2 in the <a href=\"http://darksouls2.wikidot.com/pilgrims-of-dark\">Pilgrims of Dark</a> covenant",
-      "<a href=\"http://darksouls2.wikidot.com/climax\">Climax</a> - Reward from Rank 3 in the <a href=\"http://darksouls2.wikidot.com/pilgrims-of-dark\">Pilgrims of Dark</a> covenant",
-      "<a href=\"http://darksouls2.wikidot.com/resonant-flesh\">Resonant Flesh</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> for 3,400 souls",
-      "<a href=\"http://darksouls2.wikidot.com/resonant-weapon\">Resonant Weapon</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> for 4,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/lifedrain-patch\">Lifedrain Patch</a> - Trade <a href=\"http://darksouls2.wikidot.com/darklurker-soul\">Darklurker Soul</a> and 5,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "<a href=\"http://darksouls2.wikidot.com/profound-still\">Profound Still</a> - Sold by <a href=\"http://darksouls2.wikidot.com/darkdiver-grandahl\">Darkdiver Grandahl</a> for 13,000 souls",
-      "<a href=\"http://darksouls2.wikidot.com/promised-walk-of-peace\">Promised Walk of Peace</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/shulva-sanctum-city\">Shulva, Sanctum City</a>",
-      "<a href=\"http://darksouls2.wikidot.com/dark-greatsword\">Dark Greatsword</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/shulva-sanctum-city\">Shulva, Sanctum City</a>",
-      "<a href=\"http://darksouls2.wikidot.com/recollection\">Recollection</a> - <b>DLC</b>  Found in <a href=\"http://darksouls2.wikidot.com/brume-tower\">Brume Tower</a>",
-      "<a href=\"http://darksouls2.wikidot.com/dark-dance\">Dark Dance</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/frozen-eleum-loyce\">Frozen Eleum Loyce</a>"
+      {
+        "id": "a8412ed9-92d8-4a0a-a6ec-fdbe3bcb041f",
+        "description": "<a href=\"http://darksouls2.wikidot.com/dark-orb\">Dark Orb</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a>, <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>, and <a href=\"http://darksouls2.wikidot.com/darkdiver-grandahl\">Darkdiver Grandahl</a> for 600 souls"
+      },
+      {
+        "id": "3d82f97c-a979-488a-93e5-87711cd72983",
+        "description": "<a href=\"http://darksouls2.wikidot.com/dark-hail\">Dark Hail</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>, <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a>, and <a href=\"http://darksouls2.wikidot.com/darkdiver-grandahl\">Darkdiver Grandahl</a> for 1,500 souls"
+      },
+      {
+        "id": "9ac70264-162d-4301-9d66-e4fdd7eb3060",
+        "description": "<a href=\"http://darksouls2.wikidot.com/dark-fog\">Dark Fog</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 5,200 souls and found in <a href=\"http://darksouls2.wikidot.com/the-gutter\">The Gutter</a>"
+      },
+      {
+        "id": "cd568a7e-8f16-4878-8d79-004c97d26a8e",
+        "description": "<a href=\"http://darksouls2.wikidot.com/affinity\">Affinity</a> - Sold by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a> for 11,500 souls and dropped by <a href=\"http://darksouls2.wikidot.com/rabid-kobold\">Rabid Kobolds</a> in <a href=\"http://darksouls2.wikidot.com/aldia-s-keep\">Aldia's Keep</a>"
+      },
+      {
+        "id": "d618ce5e-ad3b-4506-ab81-5a0392bc56a7",
+        "description": "<a href=\"http://darksouls2.wikidot.com/dead-again\">Dead Again</a> - Sold by <a href=\"http://darksouls2.wikidot.com/stone-trader-chloanne\">Stone Trader Chloanne</a> for 4,000 souls and dropped by <a href=\"http://darksouls2.wikidot.com/razorback-nightcrawler\">Razorback Nightcrawlers</a>"
+      },
+      {
+        "id": "121eade1-f351-40da-8d19-58a2a5cd1205",
+        "description": "<a href=\"http://darksouls2.wikidot.com/dark-weapon\">Dark Weapon</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> for 2,700 souls"
+      },
+      {
+        "id": "4dc38285-b874-4541-8327-33fc7df72af9",
+        "description": "<a href=\"http://darksouls2.wikidot.com/whisper-of-despair\">Whisper of Despair</a> - Found in <a href=\"http://darksouls2.wikidot.com/grave-of-saints\">Grave of Saints</a>"
+      },
+      {
+        "id": "24b03cdd-e24a-4a9d-80f1-3d451d7b567b",
+        "description": "<a href=\"http://darksouls2.wikidot.com/repel\">Repel</a> - Trade <a href=\"http://darksouls2.wikidot.com/giant-lord-soul\">Giant Lord Soul</a> and 5,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "00e7cffe-6658-44f3-8670-8403204b54a0",
+        "description": "<a href=\"http://darksouls2.wikidot.com/twisted-barricade\">Twisted Barricade</a> - Found in <a href=\"http://darksouls2.wikidot.com/doors-of-pharros\">Doors of Pharros</a>"
+      },
+      {
+        "id": "1b8ea512-24db-452b-ad8f-5f781dda07b9",
+        "description": "<a href=\"http://darksouls2.wikidot.com/numbness\">Numbness</a> - Trade <a href=\"http://darksouls2.wikidot.com/old-dead-one-soul\">Old Dead One Soul</a> (from <a href=\"http://darksouls2.wikidot.com/the-rotten\">The Rotten</a> in NG+) and 5,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "b207b1ad-7e21-4426-9934-4107e759d32f",
+        "description": "<a href=\"http://darksouls2.wikidot.com/scraps-of-life\">Scraps of Life</a> - Found in <a href=\"http://darksouls2.wikidot.com/black-gulch\">Black Gulch</a> and sold by <a href=\"http://darksouls2.wikidot.com/cromwell-the-pardoner\">Cromwell the Pardoner</a> for 2,200 souls"
+      },
+      {
+        "id": "5e95016f-0420-4b93-98e9-6836e23c58ad",
+        "description": "<a href=\"http://darksouls2.wikidot.com/darkstorm\">Darkstorm</a> - Sold <a href=\"http://darksouls2.wikidot.com/magerold-of-lanafir\">Magerold of Lanafir</a> and <a href=\"http://darksouls2.wikidot.com/darkdiver-grandahl\">Darkdiver Grandahl</a> for 4,700 souls"
+      },
+      {
+        "id": "7c8238b7-b070-4feb-838f-3e8ceb6172db",
+        "description": "<a href=\"http://darksouls2.wikidot.com/resonant-soul\">Resonant Soul</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> for 1,100 souls and reward from Rank 1 in the <a href=\"http://darksouls2.wikidot.com/pilgrims-of-dark\">Pilgrims of Dark</a> covenant"
+      },
+      {
+        "id": "04eb32cf-e61a-4a1d-b5e3-ae99488be0d7",
+        "description": "<a href=\"http://darksouls2.wikidot.com/great-resonant-soul\">Great Resonant Soul</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> for 3,400 souls and reward from Rank 2 in the <a href=\"http://darksouls2.wikidot.com/pilgrims-of-dark\">Pilgrims of Dark</a> covenant"
+      },
+      {
+        "id": "934308d4-1578-483a-9634-bf0a3e9a7a70",
+        "description": "<a href=\"http://darksouls2.wikidot.com/climax\">Climax</a> - Reward from Rank 3 in the <a href=\"http://darksouls2.wikidot.com/pilgrims-of-dark\">Pilgrims of Dark</a> covenant"
+      },
+      {
+        "id": "afd97795-1b9a-485e-b66a-c63eafe4ae0f",
+        "description": "<a href=\"http://darksouls2.wikidot.com/resonant-flesh\">Resonant Flesh</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> for 3,400 souls"
+      },
+      {
+        "id": "6a270fa1-ddc0-4692-b660-6cee83365118",
+        "description": "<a href=\"http://darksouls2.wikidot.com/resonant-weapon\">Resonant Weapon</a> - Sold by <a href=\"http://darksouls2.wikidot.com/felkin-the-outcast\">Felkin the Outcast</a> for 4,000 souls"
+      },
+      {
+        "id": "44fcdf1d-574f-4c7e-9575-046a80c5226f",
+        "description": "<a href=\"http://darksouls2.wikidot.com/lifedrain-patch\">Lifedrain Patch</a> - Trade <a href=\"http://darksouls2.wikidot.com/darklurker-soul\">Darklurker Soul</a> and 5,000 souls with <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "579619c9-543e-4fd3-8146-b7c95923bd5e",
+        "description": "<a href=\"http://darksouls2.wikidot.com/profound-still\">Profound Still</a> - Sold by <a href=\"http://darksouls2.wikidot.com/darkdiver-grandahl\">Darkdiver Grandahl</a> for 13,000 souls"
+      },
+      {
+        "id": "cdf27c74-f867-4397-9c0e-2c2ee2025e9e",
+        "description": "<a href=\"http://darksouls2.wikidot.com/promised-walk-of-peace\">Promised Walk of Peace</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/shulva-sanctum-city\">Shulva, Sanctum City</a>"
+      },
+      {
+        "id": "bef1434d-ae74-4870-8620-59b002b19fd7",
+        "description": "<a href=\"http://darksouls2.wikidot.com/dark-greatsword\">Dark Greatsword</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/shulva-sanctum-city\">Shulva, Sanctum City</a>"
+      },
+      {
+        "id": "3ca21269-8039-4d87-b283-238780825283",
+        "description": "<a href=\"http://darksouls2.wikidot.com/recollection\">Recollection</a> - <b>DLC</b>  Found in <a href=\"http://darksouls2.wikidot.com/brume-tower\">Brume Tower</a>"
+      },
+      {
+        "id": "d8172a9f-4693-4449-a033-e550f7d77c70",
+        "description": "<a href=\"http://darksouls2.wikidot.com/dark-dance\">Dark Dance</a> - <b>DLC</b> Found in <a href=\"http://darksouls2.wikidot.com/frozen-eleum-loyce\">Frozen Eleum Loyce</a>"
+      }
     ]
   },
   {
+    "id": "7d1e97e4-a7fd-4e68-99ab-584dee4e0ea4",
     "name": "Gesture Maestro (Learn all <a href=\"http://darksouls2.wikidot.com/gestures\">gestures</a>)",
     "tasks": [
-      "Point - Available at start",
-      "I Won't Bite - Available at start",
-      "Bow - Available at start",
-      "Wave - Available at start",
-      "Pumped Up - Available at start",
-      "Warcry - Available at start",
-      "Righty-ho! - Available at start",
-      "No Way - Available at start",
-      "Welcome - Taught by <a href=\"http://darksouls2.wikidot.com/saulden-the-crestfallen-warrior\">Saulden The Crestfallen Warrior</a>",
-      "Duel Bow - Taught by <a href=\"http://darksouls2.wikidot.com/blue-sentinel-targray\">Blue Sentinel Targray</a>",
-      "Fist Pump - Taught by <a href=\"http://darksouls2.wikidot.com/creighton-the-wanderer\">Creighton The Wanderer</a>",
-      "Praise The Sun - Learned from the <a href=\"http://darksouls2.wikidot.com/heirs-of-the-sun\">Heirs of the Sun</a> covenant altar",
-      "Mock - Taught by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>",
-      "Prostration - Taught by <a href=\"http://darksouls2.wikidot.com/laddersmith-gilligan\">Laddersmith Gilligan</a>",
-      "Joy - Taught by <a href=\"http://darksouls2.wikidot.com/benhart-of-jugo\">Benhart of Jugo</a>",
-      "Decapitate - Taught by <a href=\"http://darksouls2.wikidot.com/head-of-vengarl\">Head of Vengarl</a>",
-      "Warmup - Taught by <a href=\"http://darksouls2.wikidot.com/manscorpion-tark\">Manscorpion Tark</a>",
-      "This One's On Me - Taught by <a href=\"http://darksouls2.wikidot.com/chancellor-wellager\">Chancellor Wellager</a>",
-      "Have mercy! - Taught by <a href=\"http://darksouls2.wikidot.com/grave-warden-agdayne\">Grave Warden Agdayne</a>",
-      "Hurrah! - Taught by <a href=\"http://darksouls2.wikidot.com/captain-drummond\">Captain Drummond</a>"
+      {
+        "id": "9fbaaa64-e286-4ec7-bbbd-77198b55e6be",
+        "description": "Point - Available at start"
+      },
+      {
+        "id": "8e73d7b3-33b0-4e0b-b785-b0edb1f4a6bc",
+        "description": "I Won't Bite - Available at start"
+      },
+      {
+        "id": "5aba894a-87d9-4191-a775-1c7c925b0e27",
+        "description": "Bow - Available at start"
+      },
+      {
+        "id": "284ba525-7b5e-4a78-badc-df119e0f7e4f",
+        "description": "Wave - Available at start"
+      },
+      {
+        "id": "2a5b4008-9770-4c4d-bdbf-676ec29f03d5",
+        "description": "Pumped Up - Available at start"
+      },
+      {
+        "id": "4d32f75d-9564-449e-8de6-79ae80ad8739",
+        "description": "Warcry - Available at start"
+      },
+      {
+        "id": "76e71fbf-c5d2-4e42-8d84-b09f299adcc8",
+        "description": "Righty-ho! - Available at start"
+      },
+      {
+        "id": "59e59ffc-4ce0-438b-8eac-59c317670e00",
+        "description": "No Way - Available at start"
+      },
+      {
+        "id": "d30272d5-ff43-4e91-83a7-9e5e7e51ed12",
+        "description": "Welcome - Taught by <a href=\"http://darksouls2.wikidot.com/saulden-the-crestfallen-warrior\">Saulden The Crestfallen Warrior</a>"
+      },
+      {
+        "id": "33ba7c9e-abc6-42ed-b6b7-2a8ec70bf608",
+        "description": "Duel Bow - Taught by <a href=\"http://darksouls2.wikidot.com/blue-sentinel-targray\">Blue Sentinel Targray</a>"
+      },
+      {
+        "id": "75d62c80-d1a5-4f96-ba96-f7db7ec5b6aa",
+        "description": "Fist Pump - Taught by <a href=\"http://darksouls2.wikidot.com/creighton-the-wanderer\">Creighton The Wanderer</a>"
+      },
+      {
+        "id": "1b6ea1cd-56c4-42dc-add8-440c2452ac64",
+        "description": "Praise The Sun - Learned from the <a href=\"http://darksouls2.wikidot.com/heirs-of-the-sun\">Heirs of the Sun</a> covenant altar"
+      },
+      {
+        "id": "dfbde4bf-171d-404a-a1a1-4470a4b1c5b6",
+        "description": "Mock - Taught by <a href=\"http://darksouls2.wikidot.com/straid-of-olaphis\">Straid of Olaphis</a>"
+      },
+      {
+        "id": "c6a70394-786e-4379-ad1f-742630e48439",
+        "description": "Prostration - Taught by <a href=\"http://darksouls2.wikidot.com/laddersmith-gilligan\">Laddersmith Gilligan</a>"
+      },
+      {
+        "id": "5f6eabe0-8315-4ca3-ad9a-819c0d95b974",
+        "description": "Joy - Taught by <a href=\"http://darksouls2.wikidot.com/benhart-of-jugo\">Benhart of Jugo</a>"
+      },
+      {
+        "id": "255434d9-340a-4fdc-9bd2-eb76c9b08f5b",
+        "description": "Decapitate - Taught by <a href=\"http://darksouls2.wikidot.com/head-of-vengarl\">Head of Vengarl</a>"
+      },
+      {
+        "id": "e72f2da8-fb67-4f27-b5ba-1493686434bf",
+        "description": "Warmup - Taught by <a href=\"http://darksouls2.wikidot.com/manscorpion-tark\">Manscorpion Tark</a>"
+      },
+      {
+        "id": "62ca075f-7aff-43ec-b3cc-baf670da6be4",
+        "description": "This One's On Me - Taught by <a href=\"http://darksouls2.wikidot.com/chancellor-wellager\">Chancellor Wellager</a>"
+      },
+      {
+        "id": "d979d2b1-ed67-452f-8d9d-9876f966140b",
+        "description": "Have mercy! - Taught by <a href=\"http://darksouls2.wikidot.com/grave-warden-agdayne\">Grave Warden Agdayne</a>"
+      },
+      {
+        "id": "1989ccc1-f1d5-457c-929c-34d110f67818",
+        "description": "Hurrah! - Taught by <a href=\"http://darksouls2.wikidot.com/captain-drummond\">Captain Drummond</a>"
+      }
     ]
   }
 ]
