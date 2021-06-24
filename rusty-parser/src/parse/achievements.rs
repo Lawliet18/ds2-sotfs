@@ -1,4 +1,5 @@
 use scraper::{Html, Selector};
+use uuid::Uuid;
 
 use crate::Result;
 
@@ -25,10 +26,14 @@ pub(crate) fn achievements(html: &Html) -> Result<Vec<Achievement>> {
         let ach_name_html = captures[1].trim().to_string();
         let tasks = {
             l.select(&li_selector)
-                .map(|task| task.inner_html().trim().to_owned())
+                .map(|task| Task {
+                    id: Uuid::new_v4(),
+                    description: task.inner_html().trim().to_owned(),
+                })
                 .collect::<Vec<_>>()
         };
         achs.push(Achievement {
+            id: Uuid::new_v4(),
             name: ach_name_html,
             tasks,
         });
@@ -38,6 +43,12 @@ pub(crate) fn achievements(html: &Html) -> Result<Vec<Achievement>> {
 
 #[derive(Debug, serde::Serialize)]
 pub(crate) struct Achievement {
+    id: Uuid,
     name: String,
-    tasks: Vec<String>,
+    tasks: Vec<Task>,
+}
+#[derive(Debug, serde::Serialize)]
+pub(crate) struct Task {
+    id: Uuid,
+    description: String,
 }

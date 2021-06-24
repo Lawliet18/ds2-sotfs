@@ -1,5 +1,6 @@
 use crate::Result;
 use scraper::{Html, Selector};
+use uuid::Uuid;
 
 pub(crate) fn playthrough(html: &Html) -> Result<Vec<Location>> {
     // select all H3 elements
@@ -37,16 +38,19 @@ pub(crate) fn playthrough(html: &Html) -> Result<Vec<Location>> {
         };
         let tasks = l
             .select(&lists_tasks_selector)
-            .map(|x| {
-                x.select(&task_text_selector)
+            .map(|x| Task {
+                id: Uuid::new_v4(),
+                description: x
+                    .select(&task_text_selector)
                     .next()
                     .expect("no item_content found!")
                     .inner_html()
                     .trim()
-                    .to_owned()
+                    .to_owned(),
             })
             .collect::<Vec<_>>();
         locs.push(Location {
+            id: Uuid::new_v4(),
             name: location,
             tasks,
         });
@@ -56,6 +60,12 @@ pub(crate) fn playthrough(html: &Html) -> Result<Vec<Location>> {
 
 #[derive(Debug, serde::Serialize)]
 pub(crate) struct Location {
+    id: Uuid,
     name: String,
-    tasks: Vec<String>,
+    tasks: Vec<Task>,
+}
+#[derive(Debug, serde::Serialize)]
+pub(crate) struct Task {
+    id: Uuid,
+    description: String,
 }
