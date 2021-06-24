@@ -18,7 +18,7 @@ pub(crate) fn playthrough(html: &Html) -> Result<Vec<Location>> {
     );
     let heading_link_selector = Selector::parse("a:not(.btn)").unwrap();
     let lists_tasks_selector = Selector::parse("li[data-id]").unwrap();
-    let task_text_selector = Selector::parse("span.item_content").unwrap();
+    // let task_text_selector = Selector::parse("span.item_content").unwrap();
     let mut locs = Vec::new();
     for (h, l) in headings.into_iter().zip(lists.into_iter()) {
         let location = {
@@ -40,13 +40,14 @@ pub(crate) fn playthrough(html: &Html) -> Result<Vec<Location>> {
             .select(&lists_tasks_selector)
             .map(|x| Task {
                 id: Uuid::new_v4(),
-                description: x
-                    .select(&task_text_selector)
-                    .next()
-                    .expect("no item_content found!")
-                    .inner_html()
-                    .trim()
-                    .to_owned(),
+                description: x.inner_html().trim().to_owned(),
+                //  x
+                //     .select(&task_text_selector)
+                //     .next()
+                //     .expect(&format!("no item_content found! in: {}", x.html()))
+                //     .inner_html()
+                //     .trim()
+                //     .to_owned(),
             })
             .collect::<Vec<_>>();
         locs.push(Location {
