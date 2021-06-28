@@ -5,14 +5,14 @@ class MySharedPreferences {
 
   static final instance = MySharedPreferences._();
 
-  SharedPreferences? _sharedPreferences;
+  late SharedPreferences? _sharedPreferences;
 
   Future<void> init() async {
     _sharedPreferences = await SharedPreferences.getInstance();
   }
 
   Future<bool> saveBool(String key, {bool value = false}) async =>
-      await _sharedPreferences!.setBool(key, value);
+      _sharedPreferences!.setBool(key, value);
 
   bool loadBoolValue(String key) => _sharedPreferences!.getBool(key) ?? false;
 }

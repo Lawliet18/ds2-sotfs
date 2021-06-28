@@ -1,17 +1,16 @@
-import 'package:ds_soft_checklist/services/data_provider.dart';
+import '../services/data_provider.dart';
 
 class AppRepository {
   final dataProvider = DataProvider.instance;
 
-  Future<void> loadDataFromDataBase() async =>
-      await dataProvider.loadDataOnFirstStart();
+  Future<void> loadDataFromDataBase() => dataProvider.loadDataOnFirstStart();
 
-  Future<bool> get isDatabaseExist async => await dataProvider.isDatabaseExists;
+  Future<bool> get isDatabaseExist => dataProvider.isDatabaseExists;
 
-  Future<void> saveDatabaseLoadKey() async =>
-      await dataProvider.saveBool('isDatabaseLoad', value: true);
+  Future<void> saveDatabaseLoadKey() =>
+      dataProvider.saveBool('isDatabaseLoad', value: true);
 
-  Future<void> initSharedPrefs() async => await dataProvider.initSharedPrefs();
+  Future<void> initSharedPrefs() => dataProvider.initSharedPrefs();
 
   bool get isDatabaseLoad => dataProvider.loadBoolValue('isDatabaseLoad');
 }

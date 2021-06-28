@@ -1,9 +1,10 @@
 import 'dart:async';
 
-import 'package:ds_soft_checklist/models/playthrough.dart';
-import 'package:ds_soft_checklist/models/task.dart';
-import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
+import 'package:sqflite/sqflite.dart';
+
+import '../models/playthrough.dart';
+import '../models/task.dart';
 
 const isCompleted = 'is_completed';
 
@@ -32,7 +33,8 @@ class DBProvider {
 
   Future<void> _onCreate(Database db, int version) async {
     await db.execute(
-      '''CREATE TABLE $playthrough(
+      '''
+      CREATE TABLE $playthrough(
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       name TEXT,
       task TEXT,
@@ -41,7 +43,8 @@ class DBProvider {
       )''',
     );
     await db.execute(
-      '''CREATE TABLE $achievement(
+      '''
+      CREATE TABLE $achievement(
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       name TEXT,
       task TEXT,
@@ -53,9 +56,9 @@ class DBProvider {
 
   Future<void> addDataToPlaythroughTable(List<dynamic> playthroughItem) async {
     final db = await _db;
-    var batch = db.batch();
-    for (var items in playthroughItem) {
-      for (var task in items['tasks']) {
+    final batch = db.batch();
+    for (final items in playthroughItem) {
+      for (final task in items['tasks']) {
         await db.rawInsert(
           'INSERT INTO $playthrough (name, task, is_completed,is_selected) VALUES(?, ?, ?,?)',
           [items['name'], task, 0, 0],
@@ -67,9 +70,9 @@ class DBProvider {
 
   Future<void> addDataToAchievementTable(List<dynamic> achievementItem) async {
     final db = await _db;
-    var batch = db.batch();
-    for (var items in achievementItem) {
-      for (var task in items['tasks']) {
+    final batch = db.batch();
+    for (final items in achievementItem) {
+      for (final task in items['tasks']) {
         await db.rawInsert(
           'INSERT INTO $achievement (name, task, is_completed,is_selected) VALUES(?, ?, ?, ?)',
           [items['name'], task, 0, 0],
@@ -97,7 +100,7 @@ class DBProvider {
 
   Future<int> completeTask(int id, String tableName) async {
     final db = await _db;
-    return await db.rawUpdate(
+    return db.rawUpdate(
       'UPDATE $tableName SET $isCompleted = CASE WHEN $isCompleted = 1 THEN 0 ELSE 1 END WHERE id = ?',
       [id],
     );
@@ -130,9 +133,10 @@ class DBProvider {
 
   Future<int> selectChecklist(String name, String tableName) async {
     final db = await _db;
-    return await db.rawUpdate(
-        'UPDATE $tableName SET is_selected = CASE WHEN name = ? THEN 1 ELSE 0 END',
-        [name]);
+    return db.rawUpdate(
+      'UPDATE $tableName SET is_selected = CASE WHEN name = ? THEN 1 ELSE 0 END',
+      [name],
+    );
   }
 
   Future<bool> get isDatabaseExists async {

@@ -8,7 +8,7 @@ part 'app_state.dart';
 
 class AppCubit extends Cubit<AppState> {
   final _repository = AppRepository();
-  AppCubit() : super(AppInitial(AppStates.initial)) {
+  AppCubit() : super(const AppInitial(AppStates.initial)) {
     _firstLoad();
   }
 

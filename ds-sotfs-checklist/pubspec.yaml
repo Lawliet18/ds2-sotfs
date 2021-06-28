@@ -28,6 +28,7 @@ dependencies:
   equatable: ^2.0.3
   flutter_bloc: ^7.0.1
   flutter_html: ^2.1.0
+  lint: ^1.5.3
   path: ^1.8.0
   shared_preferences: ^2.0.6
   sqflite: ^2.0.0+3

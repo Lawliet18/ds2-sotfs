@@ -6,7 +6,7 @@ enum AppStates { initial, loading, loaded }
 abstract class AppState extends Equatable {
   final AppStates appStates;
 
-  AppState(this.appStates);
+  const AppState(this.appStates);
 
   AppState copyWith({
     required final AppStates appStates,
@@ -17,7 +17,7 @@ abstract class AppState extends Equatable {
 }
 
 class AppInitial extends AppState {
-  AppInitial(AppStates appStates) : super(appStates);
+  const AppInitial(AppStates appStates) : super(appStates);
 
   @override
   AppState copyWith({required AppStates appStates}) {

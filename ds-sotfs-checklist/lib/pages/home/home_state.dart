@@ -2,6 +2,7 @@ part of 'home_cubit.dart';
 
 enum HomeStates { initial, loading, loaded }
 
+@immutable
 abstract class HomeState extends Equatable {
   final List<Task> currentPlaythrough;
   final List<Task> currentAchievement;
@@ -25,8 +26,8 @@ abstract class HomeState extends Equatable {
 }
 
 class HomeInitial extends HomeState {
-  HomeInitial(List<Task> currentPlaythrough, List<Task> currentAchievement,
-      HomeStates homeStates)
+  const HomeInitial(List<Task> currentPlaythrough,
+      List<Task> currentAchievement, HomeStates homeStates)
       : super(currentPlaythrough, currentAchievement, homeStates);
 
   @override

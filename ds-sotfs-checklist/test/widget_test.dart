@@ -6,14 +6,13 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:ds_soft_checklist/pages/app/app.dart';
-import 'package:ds_soft_checklist/services/data_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+  testWidgets('Counter increments smoke test', (tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(MyApp());
 

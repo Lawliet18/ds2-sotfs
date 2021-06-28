@@ -7,8 +7,8 @@ class Task {
 
   factory Task.fromMap(Map<String, dynamic> map) {
     return Task(
-      map['id'],
-      map['task'],
+      map['id'] as int,
+      map['task'] as String,
       isCompleted: map['is_completed'] == 0 ? false : true,
     );
   }

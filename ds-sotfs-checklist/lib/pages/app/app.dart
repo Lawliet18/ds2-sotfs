@@ -1,7 +1,7 @@
-import 'package:ds_soft_checklist/services/router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../services/router.dart';
 import '../home/home.dart';
 import 'app_cubit.dart';
 
@@ -11,9 +11,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       initialRoute: '/',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.amber,
-        colorScheme: ColorScheme.dark(),
+        colorScheme: const ColorScheme.dark(),
       ),
       onGenerateRoute: CustomRouter.generateRoute,
     );
@@ -32,15 +33,15 @@ class InitialPage extends StatelessWidget {
         if (state.appStates == AppStates.loading) {
           return _loadingData();
         } else if (state.appStates == AppStates.loaded) {
-          return MyHomePage();
+          return const MyHomePage();
         }
-        return Scaffold();
+        return const Scaffold();
       },
     );
   }
 
   Scaffold _loadingData() {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: CircularProgressIndicator(),
       ),

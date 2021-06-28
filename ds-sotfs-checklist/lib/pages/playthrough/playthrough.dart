@@ -1,5 +1,3 @@
-import 'package:ds_soft_checklist/pages/task/task_cubit.dart';
-import 'package:ds_soft_checklist/services/database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_html/flutter_html.dart';
@@ -17,7 +15,7 @@ class PlaythroughChecklist extends StatelessWidget {
         if (state.playthroughStates == PlaythroughStates.loading) {
           return Scaffold(
             appBar: _appBar(state, context),
-            body: Center(
+            body: const Center(
               child: CircularProgressIndicator(),
             ),
           );
@@ -25,54 +23,16 @@ class PlaythroughChecklist extends StatelessWidget {
           return Scaffold(
             appBar: _appBar(state, context),
             body: GridView.builder(
-              physics: BouncingScrollPhysics(),
+              physics: const BouncingScrollPhysics(),
               itemCount: state.list.length,
-              padding: EdgeInsets.all(10),
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              padding: const EdgeInsets.all(10),
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
                 mainAxisSpacing: 10,
                 crossAxisSpacing: 10,
               ),
               itemBuilder: (context, index) {
                 return InkWell(
-                  child: Card(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        state.list[index].isSelected
-                            ? Stack(
-                                children: [
-                                  Padding(
-                                    padding: const EdgeInsets.only(right: 15.0),
-                                    child: Html(
-                                      data: state.list[index].name,
-                                      onLinkTap: (str, _, __, ___) =>
-                                          _urlLauncher(str),
-                                    ),
-                                  ),
-                                  Positioned(
-                                    right: 5,
-                                    top: 5,
-                                    child: Icon(
-                                      Icons.star,
-                                      color: Colors.yellow,
-                                    ),
-                                  )
-                                ],
-                              )
-                            : Html(
-                                data: state.list[index].name,
-                                onLinkTap: (str, _, __, ___) =>
-                                    _urlLauncher(str),
-                              ),
-                        LinearProgressIndicator(
-                          value: state.list[index].completed /
-                              state.list[index].taskAmount,
-                          minHeight: 10,
-                        )
-                      ],
-                    ),
-                  ),
                   onTap: () async {
                     await Navigator.pushNamed(context, '/task', arguments: {
                       'name': state.list[index].name,
@@ -83,14 +43,50 @@ class PlaythroughChecklist extends StatelessWidget {
                   onLongPress: () => context
                       .read<PlaythroughCubit>()
                       .selectChecklist(state.list[index].name),
+                  child: Card(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        if (state.list[index].isSelected)
+                          Stack(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(right: 15.0),
+                                child: Html(
+                                  data: state.list[index].name,
+                                  onLinkTap: (str, _, __, ___) =>
+                                      _urlLauncher(str),
+                                ),
+                              ),
+                              const Positioned(
+                                right: 5,
+                                top: 5,
+                                child: Icon(
+                                  Icons.star,
+                                  color: Colors.yellow,
+                                ),
+                              )
+                            ],
+                          )
+                        else
+                          Html(
+                            data: state.list[index].name,
+                            onLinkTap: (str, _, __, ___) => _urlLauncher(str),
+                          ),
+                        LinearProgressIndicator(
+                          value: state.list[index].completed /
+                              state.list[index].taskAmount,
+                          minHeight: 10,
+                        )
+                      ],
+                    ),
+                  ),
                 );
               },
             ),
           );
         }
-        return Container(
-          child: null,
-        );
+        return Container();
       },
     );
   }
@@ -103,7 +99,7 @@ class PlaythroughChecklist extends StatelessWidget {
       centerTitle: true,
       actions: [
         PopupMenuButton(
-          icon: Icon(Icons.filter_alt),
+          icon: const Icon(Icons.filter_alt),
           initialValue: state.playthoughFilter,
           itemBuilder: (context) {
             return PlaythoughFilter.values

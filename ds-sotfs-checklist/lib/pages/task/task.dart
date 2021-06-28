@@ -26,7 +26,7 @@ class _DisplayTasksState extends State<DisplayTasks> {
               ? _searchAppBar()
               : _defaultAppBar(context),
           body: ListView.separated(
-            physics: BouncingScrollPhysics(),
+            physics: const BouncingScrollPhysics(),
             itemCount: state.tasks.length,
             itemBuilder: (context, index) {
               return CheckboxListTile(
@@ -40,7 +40,7 @@ class _DisplayTasksState extends State<DisplayTasks> {
                     .completeTask(state.tasks[index].id),
               );
             },
-            separatorBuilder: (context, index) => Divider(
+            separatorBuilder: (context, index) => const Divider(
               endIndent: 10,
               indent: 10,
             ),
@@ -67,7 +67,7 @@ class _DisplayTasksState extends State<DisplayTasks> {
         actions: [
           IconButton(
             onPressed: context.read<TaskCubit>().closeSearch,
-            icon: Icon(Icons.close),
+            icon: const Icon(Icons.close),
           )
         ],
       );
@@ -82,10 +82,10 @@ class _DisplayTasksState extends State<DisplayTasks> {
       actions: [
         IconButton(
           onPressed: context.read<TaskCubit>().startSearch,
-          icon: Icon(Icons.search),
+          icon: const Icon(Icons.search),
         ),
         PopupMenuButton<Filter>(
-          icon: Icon(Icons.filter_alt),
+          icon: const Icon(Icons.filter_alt),
           itemBuilder: (context) {
             return Filter.values.map(
               (value) {
@@ -99,7 +99,8 @@ class _DisplayTasksState extends State<DisplayTasks> {
               },
             ).toList();
           },
-          onSelected: context.read<TaskCubit>().filter,
+          onSelected: (filter) =>
+              context.read<TaskCubit>().filter(filter: filter),
         )
       ],
     );

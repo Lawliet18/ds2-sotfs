@@ -1,12 +1,9 @@
-import 'dart:ffi';
-
 import 'package:bloc/bloc.dart';
-import 'package:ds_soft_checklist/models/playthrough.dart';
-import 'package:ds_soft_checklist/models/task.dart';
-import 'package:ds_soft_checklist/repository/playthrough_repository.dart';
-import 'package:ds_soft_checklist/services/database.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
+
+import '../../models/playthrough.dart';
+import '../../repository/playthrough_repository.dart';
 
 part 'playthrough_state.dart';
 
@@ -15,7 +12,7 @@ class PlaythroughCubit extends Cubit<PlaythroughState> {
   final ChecklistPages page;
   PlaythroughCubit(this.page)
       : super(PlaythroughInitial(
-            [], PlaythroughStates.initial, page, PlaythoughFilter.show,
+            const [], PlaythroughStates.initial, page, PlaythoughFilter.show,
             isSelected: false)) {
     loadPlaythrough();
   }
@@ -30,11 +27,11 @@ class PlaythroughCubit extends Cubit<PlaythroughState> {
         isSelected: isSelected));
   }
 
-  Future<List<ChecklistItem>> _choosedPage() async {
+  Future<List<ChecklistItem>> _choosedPage() {
     if (page == ChecklistPages.playthrough) {
-      return await _repository.getData();
+      return _repository.getData();
     } else {
-      return await _repository.getDataFromAchievement();
+      return _repository.getDataFromAchievement();
     }
   }
 

@@ -16,7 +16,7 @@ abstract class PlaythroughState extends Equatable {
   final PlaythoughFilter playthoughFilter;
   final bool isSelected;
 
-  PlaythroughState(this.list, this.playthroughStates, this.checklistPages,
+  const PlaythroughState(this.list, this.playthroughStates, this.checklistPages,
       this.playthoughFilter,
       {required this.isSelected});
 
@@ -34,7 +34,7 @@ abstract class PlaythroughState extends Equatable {
 }
 
 class PlaythroughInitial extends PlaythroughState {
-  PlaythroughInitial(
+  const PlaythroughInitial(
       List<ChecklistItem> list,
       PlaythroughStates playthroughStates,
       ChecklistPages checklistPages,

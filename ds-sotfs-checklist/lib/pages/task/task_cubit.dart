@@ -1,11 +1,11 @@
 import 'package:bloc/bloc.dart';
-import 'package:ds_soft_checklist/pages/playthrough/playthrough_cubit.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:meta/meta.dart';
 
 import '../../models/task.dart';
 import '../../repository/task_repository.dart';
+import '../playthrough/playthrough_cubit.dart';
 
 part 'task_state.dart';
 
@@ -15,7 +15,7 @@ class TaskCubit extends Cubit<TaskState> {
   final ChecklistPages page;
   TaskCubit(this.name, this.page)
       : super(
-          TaskInitial([], TaskStates.initial, Filter.all),
+          const TaskInitial([], TaskStates.initial, Filter.all),
         ) {
     _loadTasks(name);
   }
@@ -42,7 +42,7 @@ class TaskCubit extends Cubit<TaskState> {
     emit(state.copyWith(tasks: list, taskStates: TaskStates.complete));
   }
 
-  Future<void> filter(Filter? filter) async {
+  Future<void> filter({Filter? filter}) async {
     emit(state.copyWith(taskStates: TaskStates.loading));
     filter ??= state.filter;
     final data = await _filterData(filter);
@@ -54,20 +54,20 @@ class TaskCubit extends Cubit<TaskState> {
     if (page == ChecklistPages.playthrough) {
       switch (value) {
         case Filter.all:
-          return await _repository.getAllTasksFromPlaythrough(name);
+          return _repository.getAllTasksFromPlaythrough(name);
         case Filter.completed:
-          return await _repository.completedTasksFromPlaythrough(name);
+          return _repository.completedTasksFromPlaythrough(name);
         case Filter.uncompleted:
-          return await _repository.uncompletedTasksFromPlaythrough(name);
+          return _repository.uncompletedTasksFromPlaythrough(name);
       }
     } else {
       switch (value) {
         case Filter.all:
-          return await _repository.getAllTasksFromAchievement(name);
+          return _repository.getAllTasksFromAchievement(name);
         case Filter.completed:
-          return await _repository.completedTasksFromAchievement(name);
+          return _repository.completedTasksFromAchievement(name);
         case Filter.uncompleted:
-          return await _repository.uncompletedTasksFromAchievement(name);
+          return _repository.uncompletedTasksFromAchievement(name);
       }
     }
   }

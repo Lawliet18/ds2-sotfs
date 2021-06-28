@@ -18,7 +18,7 @@ abstract class TaskState extends Equatable {
   final List<Task> tasks;
   final Filter filter;
 
-  TaskState(this.tasks, this.taskStates, this.filter);
+  const TaskState(this.tasks, this.taskStates, this.filter);
 
   TaskState copyWith({
     final TaskStates? taskStates,
@@ -31,7 +31,7 @@ abstract class TaskState extends Equatable {
 }
 
 class TaskInitial extends TaskState {
-  TaskInitial(List<Task> tasks, TaskStates taskStates, Filter filter)
+  const TaskInitial(List<Task> tasks, TaskStates taskStates, Filter filter)
       : super(tasks, taskStates, filter);
 
   @override
