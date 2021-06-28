@@ -1,3 +1,4 @@
+import 'package:ds_soft_checklist/pages/playthrough/playthrough_cubit.dart';
 import 'package:ds_soft_checklist/pages/task/task.dart';
 import 'package:ds_soft_checklist/pages/task/task_cubit.dart';
 import 'package:flutter/material.dart';
@@ -15,14 +16,24 @@ class CustomRouter {
         );
       case '/playthrough':
         return MaterialPageRoute(
-          builder: (_) => PlaythroughChecklist(),
+          builder: (_) => BlocProvider(
+            create: (context) => PlaythroughCubit(ChecklistPages.playthrough),
+            child: PlaythroughChecklist(),
+          ),
         );
-      case '/task':
-        final args = settings.arguments as String;
+      case '/achievement':
         return MaterialPageRoute(
           builder: (_) => BlocProvider(
-            create: (context) => TaskCubit(args),
-            child: DisplayTasks(playthroughName: args),
+            create: (context) => PlaythroughCubit(ChecklistPages.achievement),
+            child: PlaythroughChecklist(),
+          ),
+        );
+      case '/task':
+        final args = settings.arguments as Map;
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider(
+            create: (context) => TaskCubit(args['name'], args['page']),
+            child: DisplayTasks(checklistName: args['name']),
           ),
         );
       default:

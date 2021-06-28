@@ -31,7 +31,7 @@ void main() {
   });
 
   test('json_parse', () async {
-    final pr = DataProvider();
+    //final pr = DataProvider();
 
     //await pr.jsonParser();
     //print(await pr.dataToDatabase());

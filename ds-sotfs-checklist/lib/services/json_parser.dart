@@ -13,4 +13,10 @@ class JsonParser {
     final parsed = jsonDecode(json) as List<dynamic>;
     return parsed;
   }
+
+  Future<List<dynamic>> parseAchievement() async {
+    final json = await rootBundle.loadString('assets/json/achievements.json');
+    final parsed = jsonDecode(json) as List<dynamic>;
+    return parsed;
+  }
 }

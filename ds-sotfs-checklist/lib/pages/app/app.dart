@@ -2,7 +2,7 @@ import 'package:ds_soft_checklist/services/router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../home_page.dart';
+import '../home/home.dart';
 import 'app_cubit.dart';
 
 class MyApp extends StatelessWidget {

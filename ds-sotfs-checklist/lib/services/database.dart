@@ -7,15 +7,14 @@ import 'package:path/path.dart';
 
 const isCompleted = 'is_completed';
 
+const playthrough = 'Playthrough';
+const achievement = 'Achievement';
+
 class DBProvider {
-  DBProvider._();
-
-  final playthroughTableName = 'Playthrough';
-  final playthroughTaskTableName = 'Task';
-
   static final instance = DBProvider._();
-
   Database? _database;
+
+  DBProvider._();
 
   Future<Database> get _db async {
     if (_database != null) {
@@ -33,72 +32,107 @@ class DBProvider {
 
   Future<void> _onCreate(Database db, int version) async {
     await db.execute(
-      '''CREATE TABLE Playthrough(
+      '''CREATE TABLE $playthrough(
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       name TEXT,
       task TEXT,
-      is_completed BIT
+      is_completed BIT,
+      is_selected BIT
       )''',
     );
-    // await db.execute(
-    //   '''CREATE TABLE $playthroughTaskTableName (
-    //   id INTEGER PRIMARY KEY AUTOINCREMENT,
-    //   playthrough_id INTEGER,
-    //   task TEXT
-    //   )''',
-    // );
+    await db.execute(
+      '''CREATE TABLE $achievement(
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      name TEXT,
+      task TEXT,
+      is_completed BIT,
+      is_selected BIT
+      )''',
+    );
   }
 
-  Future<void> addDataToPlaythroughTable(List<dynamic> playthrough) async {
+  Future<void> addDataToPlaythroughTable(List<dynamic> playthroughItem) async {
     final db = await _db;
     var batch = db.batch();
-    for (var items in playthrough) {
+    for (var items in playthroughItem) {
       for (var task in items['tasks']) {
         await db.rawInsert(
-          'INSERT INTO $playthroughTableName (name, task, is_completed) VALUES(?, ?, ?)',
-          [items['name'], task, 0],
+          'INSERT INTO $playthrough (name, task, is_completed,is_selected) VALUES(?, ?, ?,?)',
+          [items['name'], task, 0, 0],
         );
       }
     }
     batch.commit();
   }
 
-  Future<List<Playthrough>> getPlaythroughName() async {
+  Future<void> addDataToAchievementTable(List<dynamic> achievementItem) async {
+    final db = await _db;
+    var batch = db.batch();
+    for (var items in achievementItem) {
+      for (var task in items['tasks']) {
+        await db.rawInsert(
+          'INSERT INTO $achievement (name, task, is_completed,is_selected) VALUES(?, ?, ?, ?)',
+          [items['name'], task, 0, 0],
+        );
+      }
+    }
+    batch.commit();
+  }
+
+  Future<List<ChecklistItem>> getChecklistItemName(String tableName) async {
     final db = await _db;
     final data = await db.rawQuery(
-        'select name, count(task), sum(is_completed) from $playthroughTableName group by name');
-    print(data.length);
+        'select name, count(task), sum(is_completed), is_selected from $tableName group by name');
     return data.isNotEmpty
-        ? data.map((map) => Playthrough.fromMap(map)).toList()
+        ? data.map((map) => ChecklistItem.fromMap(map)).toList()
         : [];
   }
 
-  Future<List<Task>> getTasksByName(String name) async {
+  Future<List<Task>> getTasksByName(String name, String tableName) async {
     final db = await _db;
-    final data = await db
-        .query(playthroughTableName, where: 'name = ?', whereArgs: [name]);
+    final data =
+        await db.query(tableName, where: 'name = ?', whereArgs: [name]);
     return data.isNotEmpty ? data.map((map) => Task.fromMap(map)).toList() : [];
   }
 
-  Future<int> completeTask(int id) async {
+  Future<int> completeTask(int id, String tableName) async {
     final db = await _db;
     return await db.rawUpdate(
-      'UPDATE $playthroughTableName SET $isCompleted = CASE WHEN $isCompleted = 1 THEN 0 ELSE 1 END WHERE id = $id',
+      'UPDATE $tableName SET $isCompleted = CASE WHEN $isCompleted = 1 THEN 0 ELSE 1 END WHERE id = ?',
+      [id],
     );
   }
 
-  Future<List<Task>> completed(String name) async {
+  Future<List<Task>> completed(String name, String tableName) async {
     final db = await _db;
-    final data = await db.query(playthroughTableName,
+    final data = await db.query(tableName,
         where: '$isCompleted = ? AND name = ?', whereArgs: ['1', name]);
     return data.isNotEmpty ? data.map((map) => Task.fromMap(map)).toList() : [];
   }
 
-  Future<List<Task>> uncompleted(String name) async {
+  Future<List<Task>> uncompleted(String name, String tableName) async {
     final db = await _db;
-    final data = await db.query(playthroughTableName,
+    final data = await db.query(tableName,
         where: '$isCompleted = ? AND name = ?', whereArgs: ['0', name]);
     return data.isNotEmpty ? data.map((map) => Task.fromMap(map)).toList() : [];
+  }
+
+  Future<List<Task>> currentChecklist(String tableName) async {
+    final db = await _db;
+    final data = await db.query(
+      tableName,
+      where: '$isCompleted = ? AND is_selected = ?',
+      whereArgs: ['0', '1'],
+      limit: 4,
+    );
+    return data.isNotEmpty ? data.map((map) => Task.fromMap(map)).toList() : [];
+  }
+
+  Future<int> selectChecklist(String name, String tableName) async {
+    final db = await _db;
+    return await db.rawUpdate(
+        'UPDATE $tableName SET is_selected = CASE WHEN name = ? THEN 1 ELSE 0 END',
+        [name]);
   }
 
   Future<bool> get isDatabaseExists async {

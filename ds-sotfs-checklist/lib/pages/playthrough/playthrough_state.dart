@@ -1,34 +1,62 @@
 part of 'playthrough_cubit.dart';
 
-enum PlaythroughStates { initial, loading, loaded, checked }
+enum PlaythoughFilter { show, hide }
+enum ChecklistPages { playthrough, achievement }
+enum PlaythroughStates {
+  initial,
+  loading,
+  loaded,
+}
 
 @immutable
 abstract class PlaythroughState extends Equatable {
-  final List<Playthrough> list;
+  final List<ChecklistItem> list;
   final PlaythroughStates playthroughStates;
+  final ChecklistPages checklistPages;
+  final PlaythoughFilter playthoughFilter;
+  final bool isSelected;
 
-  PlaythroughState(this.list, this.playthroughStates);
+  PlaythroughState(this.list, this.playthroughStates, this.checklistPages,
+      this.playthoughFilter,
+      {required this.isSelected});
 
   PlaythroughState copyWith({
-    final List<Playthrough> list,
+    final List<ChecklistItem> list,
     final PlaythroughStates playthroughStates,
+    final ChecklistPages checklistPages,
+    final PlaythoughFilter playthoughFilter,
+    final bool isSelected,
   });
 
   @override
-  List<Object?> get props => [list, playthroughStates];
+  List<Object?> get props =>
+      [list, playthroughStates, playthoughFilter, isSelected];
 }
 
 class PlaythroughInitial extends PlaythroughState {
   PlaythroughInitial(
-      List<Playthrough> list, PlaythroughStates playthroughStates)
-      : super(list, playthroughStates);
+      List<ChecklistItem> list,
+      PlaythroughStates playthroughStates,
+      ChecklistPages checklistPages,
+      PlaythoughFilter playthoughFilter,
+      {required bool isSelected})
+      : super(list, playthroughStates, checklistPages, playthoughFilter,
+            isSelected: isSelected);
 
   @override
-  PlaythroughState copyWith(
-      {List<Playthrough>? list, PlaythroughStates? playthroughStates}) {
+  PlaythroughState copyWith({
+    List<ChecklistItem>? list,
+    PlaythroughStates? playthroughStates,
+    ChecklistPages? checklistPages,
+    PlaythoughFilter? playthoughFilter,
+    bool? isSelected,
+  }) {
     return PlaythroughInitial(
       list ?? this.list,
       playthroughStates ?? this.playthroughStates,
+      checklistPages ?? this.checklistPages,
+      playthoughFilter ?? this.playthoughFilter,
+      isSelected: isSelected ?? this.isSelected,
     );
   }
 }

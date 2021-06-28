@@ -1,7 +1,16 @@
 part of 'task_cubit.dart';
 
 enum Filter { all, completed, uncompleted }
-enum TaskStates { initial, loading, loaded, uncompleted, complete, completed }
+enum TaskStates {
+  initial,
+  loading,
+  loaded,
+  uncompleted,
+  complete,
+  completed,
+  searchDone,
+  search
+}
 
 @immutable
 abstract class TaskState extends Equatable {
